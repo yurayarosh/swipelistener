@@ -1,4 +1,4 @@
 export default {
-  moveCallbacks: true,
+  moveCallbacks: false,
   resistance: 0,
 }

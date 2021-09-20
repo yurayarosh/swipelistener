@@ -1,5 +1,5 @@
 var defaultConfig = {
-  moveCallbacks: true,
+  moveCallbacks: false,
   resistance: 0,
 };
 

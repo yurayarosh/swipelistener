@@ -135,7 +135,7 @@ function _nonIterableRest() {
 }
 
 var defaultConfig = {
-  moveCallbacks: true,
+  moveCallbacks: false,
   resistance: 0
 };
 
