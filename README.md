@@ -2,8 +2,8 @@
 
 ### Install
 
-```html
-yarn add swipelistener
+```bash
+$ yarn add swipelistener
 ```
 
 ```js
