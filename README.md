@@ -1,4 +1,4 @@
-# swipelistener
+# swipelistener-js
 
 ### Install
 
