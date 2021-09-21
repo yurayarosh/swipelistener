@@ -1,7 +1,7 @@
 {
   "name": "swipelistener-js",
   "description": "Small JS plugin to handle swipe gestures.",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "scripts": {
     "ghpages": "git subtree push --prefix build origin gh-pages",
     "start": "rollup -c -w",

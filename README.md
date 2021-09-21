@@ -1,5 +1,9 @@
 # swipelistener-js
 
+Small JS plugin to handle swipe gestures.
+
+### [Demo](https://yurayarosh.github.io/swipelistener-js/)
+
 ### Install
 
 ```bash
