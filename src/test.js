@@ -1,4 +1,5 @@
 import Swipe from './main'
+import './test.css'
 
 const isTouch = 'ontouchstart' in window || navigator.maxTouchPoints
 

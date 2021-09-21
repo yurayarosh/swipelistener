@@ -1,11 +1,13 @@
 import babel from '@rollup/plugin-babel'
+import css from 'rollup-plugin-import-css'
+import htmlTemplate from 'rollup-plugin-generate-html-template'
 import { uglify } from 'rollup-plugin-uglify'
 
 export default [
   {
-    input: 'src/main.js',
+    input: './src/main.js',
     output: {
-      file: 'index.js',
+      file: './build/index.js',
       name: 'Popup',
       format: 'umd',
     },
@@ -18,18 +20,18 @@ export default [
     ],
   },
   {
-    input: 'src/main.js',
+    input: './src/main.js',
     output: [
       {
-        file: 'index.es.js',
+        file: './build/index.es.js',
         format: 'es',
       },
     ],
   },
   {
-    input: 'src/test.js',
+    input: './src/test.js',
     output: {
-      file: 'test.js',
+      file: './build/test.js',
       format: 'cjs',
     },
     plugins: [
@@ -37,6 +39,11 @@ export default [
         babelHelpers: 'bundled',
         exclude: 'node_modules/**', // only transpile our source code
       }),
+      htmlTemplate({
+        template: './src/index.html',
+        target: './index.html',
+      }),
+      css(),
     ],
   },
 ]
