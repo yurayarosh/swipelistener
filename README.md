@@ -39,7 +39,7 @@ Standart options
 
 ```js
 swipe.on(eventName, callback)
-popup.off(eventName, callback)
+swipe.off(eventName, callback)
 swipe.destroy() 
 ```
 
