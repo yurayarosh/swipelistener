@@ -7,11 +7,11 @@ Small JS plugin to handle swipe gestures.
 ### Install
 
 ```bash
-$ yarn add swipelistener
+$ yarn add swipelistener-js
 ```
 
 ```js
-import Swipe from './main'
+import Swipe from 'swipelistener-js/src/main'
 
 const swipe = new Swipe(el, options)
 swipe.init()
